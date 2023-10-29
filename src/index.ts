@@ -31,3 +31,11 @@ numArr[1] = 6.2373;
 
 //methods are related with type
 numArr.forEach((num) => console.log(num.toFixed()));
+
+// Tuples for pair values and related method
+let user: [number, string] = [1, "Farzaneh"];
+console.log(user[0].toString());
+console.log(user[1].charAt(1));
+//bug
+user.push(1);
+console.log(user);
